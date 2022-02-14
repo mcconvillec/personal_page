@@ -1,37 +1,52 @@
-## Welcome to GitHub Pages
+Spectral by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
-You can use the [editor on GitHub](https://github.com/mcconvillec/personal_page/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+A big, modern, blocky affair with a mobile-style menu, fully responsive styling,
+and an assortment of pre-styled elements. So, pretty much what you were expecting
+-- except, of course, for how it's put together, specifically:
 
-### Markdown
+- It's built on Skel 3*, a leaner, more modular rewrite of my responsive framework.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  (* = still in development as of this writing)
 
-```markdown
-Syntax highlighted code block
+- It uses flexbox*, which eliminates all kinds of terrible hacks and clunky layout
+  stopgaps (like CSS grid systems).
 
-# Header 1
-## Header 2
-### Header 3
+  (* = not supported on IE8/9, but non-flexbox fallbacks are included)
 
-- Bulleted
-- List
+- It uses Sass* a lot more intelligently, thanks in part to several new mixins
+  and functions I've been working on (as well as a few by @HugoGiraudel).
 
-1. Numbered
-2. List
+  (* = still entirely optional if you prefer vanilla CSS :)
 
-**Bold** and _Italic_ and `Code` text
+- A ton of other stuff.
 
-[Link](url) and ![Image](src)
-```
+In short, Spectral's the culmination of several new things I'm working on/trying out,
+so please, let me know what you think :)
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
+you can use for pretty much whatever.
 
-### Jekyll Themes
+(* = not included)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mcconvillec/personal_page/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+AJ
+aj@lkn.io | @ajlkn
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Credits:
+
+	Demo Images:
+		Unsplash (unsplash.com)
+
+	Icons:
+		Font Awesome (fortawesome.github.com/Font-Awesome)
+
+	Other:
+		jQuery (jquery.com)
+		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
+		background-size polyfill (github.com/louisremi)
+		Misc. Sass functions (@HugoGiraudel)
+		Respond.js (j.mp/respondjs)
+		Skel (skel.io)
